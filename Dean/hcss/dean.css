@@ -1,0 +1,12 @@
+body{
+	   background:url('../images/4.jpg') no-repeat center center fixed;
+	   background-size:cover;	   
+}
+.heading{display:none;}
+.box {margin-bottom: 20px; padding:0;}  .img{min-width:100%; }
+@media screen and (min-width:768px){
+.heading{display:inherit; text-align: center; color:#fff; margin:40px 0 20px; font-size: 60px;}
+.navbar-header{display:none;}
+.navbar{ border-radius:0; min-height:0;} .navbar-default{background:#fff; } .nav  > li > a{ padding: 20px;} 
+.navbar-nav > li >  a { line-height: normal; } .navbar-nav{ display:table;  float:none;  margin:0 auto; }
+}
